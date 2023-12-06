@@ -1,0 +1,11 @@
+.search{
+    min-height: 95.7vh;
+    width: 100%;
+    display: flex;
+    padding: 68px;
+    flex-direction: column;
+}
+
+.search h2 {
+    margin-top: 1rem;
+}

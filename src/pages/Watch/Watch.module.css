@@ -1,0 +1,22 @@
+.watch {
+    height: 95.7vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 480px) {
+    .watch iframe {
+        width: 50%;
+        height: 280px;
+    }
+}
+
+@media (max-width: 1085px) {
+    .watch iframe {
+        width: 100%;
+        aspect-ratio: 16/6;
+    }
+} 
